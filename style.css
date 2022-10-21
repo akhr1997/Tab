@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.container{
+    max-width: 60%;
+    background-color: wheat;
+}
+
+.tab-head{
+    display: flex;
+    align-items: stretch;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.tab-toggle{
+    height: 50px;
+    display: flex;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tab-toggle.is-active{
+    background-color: wheat;
+}
+
+.tab-content{
+    padding: 20px;
+    display: none;
+
+}
+
+.tab-content.is-active{
+    background-color: wheat;
+    display: block;
+}
